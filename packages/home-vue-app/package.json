@@ -13,6 +13,9 @@
     "url": "git+https://github.com/bernardocorbella/myweb.git",
     "directory": "packages/home-vue-app"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@bernardocorbella/home-tokens": "^0.1.0-next.0",
     "@bernardocorbella/home-vue-components": "^0.1.0-next.0",
