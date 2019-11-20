@@ -29,6 +29,6 @@ jobs:
       - name: Install and publish
         run: |
           yarn ci
-          yarn publish
+          yarn run publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
