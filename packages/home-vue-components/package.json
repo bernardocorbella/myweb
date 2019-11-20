@@ -1,5 +1,5 @@
 {
-  "name": "@bernardocorbella/vue-components",
+  "name": "@bernardocorbella/home-vue-components",
   "version": "0.0.0",
   "description": "Reusable Vue Components",
   "author": "Bernardo Corbella <corbellabernardo@gmail.com>",
@@ -19,15 +19,25 @@
     "url": "git+https://github.com/bernardocorbella/myweb.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "styleguide": "vue-styleguidist server",
+    "styleguide:build": "vue-styleguidist build"
   },
   "bugs": {
     "url": "https://github.com/bernardocorbella/myweb/issues"
   },
   "devDependencies": {
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.2",
     "vue-styleguidist": "^4.0.4"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "prettier": "^1.19.1",
+    "sass-loader": "^8.0.0"
   }
 }
