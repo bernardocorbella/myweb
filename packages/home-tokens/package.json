@@ -17,6 +17,9 @@
     "url": "git+https://github.com/bernardocorbella/myweb.git",
     "directory": "packages/home-tokens"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "watch": "chokidar properties/**/*.json -c \"yarn build\"",
     "build": "style-dictionary clean && style-dictionary build"
@@ -26,8 +29,5 @@
     "forever": "^1.0.0",
     "prettier": "^1.19.1",
     "style-dictionary": "^2.8.3"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
