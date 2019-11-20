@@ -1,0 +1,33 @@
+{
+  "name": "@bernardocorbella/vue-components",
+  "version": "0.0.0",
+  "description": "Reusable Vue Components",
+  "author": "Bernardo Corbella <corbellabernardo@gmail.com>",
+  "homepage": "https://corbella.me",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist/",
+    "src/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernardocorbella/myweb.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/bernardocorbella/myweb/issues"
+  },
+  "devDependencies": {
+    "vue-styleguidist": "^4.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
