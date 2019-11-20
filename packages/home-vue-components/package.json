@@ -19,6 +19,7 @@
     "url": "git+https://github.com/bernardocorbella/myweb.git"
   },
   "scripts": {
+    "build": "rimraf dist && bili",
     "test": "echo \"Error: run tests from root\" && exit 1",
     "styleguide": "vue-styleguidist server",
     "styleguide:build": "vue-styleguidist build"
@@ -27,19 +28,24 @@
     "url": "https://github.com/bernardocorbella/myweb/issues"
   },
   "devDependencies": {
+    "bili": "^4.8.1",
     "node-sass": "^4.13.0",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-vue": "^5.1.2",
     "sass-loader": "^8.0.0",
     "sass-resources-loader": "^2.0.1",
     "vue": "^2.6.10",
     "vue-loader": "^15.7.2",
-    "vue-styleguidist": "^4.0.4"
+    "vue-styleguidist": "^4.0.4",
+    "vue-template-compiler": "^2.6.10"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
     "@bernardocorbella/home-tokens": "^0.0.0",
-    "prettier": "^1.19.1",
-    "sass-loader": "^8.0.0"
+    "node-sass": "^4.13.0"
   }
 }

@@ -1,5 +1,5 @@
 <template>
-  <component class="test-title" :as="is"><slot /></component>
+  <component class="test-title" :is="as"><slot /></component>
 </template>
 
 <script>
@@ -14,9 +14,9 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style>
 .test-title {
-  font-size: $size-scale-base;
+  font-size: var(--size-scale-base);
   color: black;
   background: rgba(250, 25, 50, 0.25);
 }
