@@ -7,12 +7,13 @@
     "url": "https://corbella.me"
   },
   "scripts": {
-    "ci": "yarn install --silent",
+    "ci": "yarn install",
     "postinstall": "lerna run build",
     "test": "echo no tests yet",
     "version:next": "lerna version --conventional-prerelease --no-push --preid next",
-    "publish": "lerna publish from-git --yes",
-    "postpublish": "lerna publish from-package --yes"
+    "publish": "yarn run publish:gpr",
+    "publish:gpr": "lerna publish from-git --yes --registry https://npm.pkg.github.com",
+    "postpublish:gpr": "lerna publish from-package --yes --registry https://npm.pkg.github.com"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
