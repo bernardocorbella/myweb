@@ -7,7 +7,8 @@
     "url": "https://corbella.me"
   },
   "scripts": {
-    "postinstall": "lerna run --scope @bernardocorbella/home-tokens build"
+    "postinstall": "yarn run build",
+    "build": "lerna run build"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
