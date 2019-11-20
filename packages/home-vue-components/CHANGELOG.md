@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0-next.1](https://github.com/bernardocorbella/myweb/compare/@bernardocorbella/home-vue-components@0.1.0-next.0...@bernardocorbella/home-vue-components@0.1.0-next.1) (2019-11-20)
+
+
+### Bug Fixes
+
+* **home-vue-components:** missing publishConfig in package.json ([cb25c4e](https://github.com/bernardocorbella/myweb/commit/cb25c4eeffd5f123ac0830892026c4f75851b1fe))
+* **home-vue-components:** missing README ([802d2bf](https://github.com/bernardocorbella/myweb/commit/802d2bf471f14473e8c586eb0249698f811b476d))
+
+
+
+
+
 # 0.1.0-next.0 (2019-11-20)
 
 

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0-next.1](https://github.com/bernardocorbella/myweb/compare/@bernardocorbella/home-tokens@0.1.0-next.0...@bernardocorbella/home-tokens@0.1.0-next.1) (2019-11-20)
+
+
+### Bug Fixes
+
+* **home-tokens:** add missing README.md ([9a37a76](https://github.com/bernardocorbella/myweb/commit/9a37a76c4a345ff5ff777657833789e97295eace))
+* **home-tokens:** missing publishConfig in package.json ([aefd480](https://github.com/bernardocorbella/myweb/commit/aefd48061363c87c5dc65522f9df4446344a7abc))
+
+
+
+
+
 # 0.1.0-next.0 (2019-11-20)
 
 

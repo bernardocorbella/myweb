@@ -1,6 +1,6 @@
 {
   "name": "@bernardocorbella/home-vue-components",
-  "version": "0.1.0-next.0",
+  "version": "0.1.0-next.1",
   "description": "Reusable Vue Components",
   "author": "Bernardo Corbella <corbellabernardo@gmail.com>",
   "homepage": "https://corbella.me",
@@ -52,7 +52,7 @@
     "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
-    "@bernardocorbella/home-tokens": "^0.1.0-next.0",
+    "@bernardocorbella/home-tokens": "^0.1.0-next.1",
     "node-sass": "^4.13.0",
     "npm-run-all": "^4.1.5"
   }

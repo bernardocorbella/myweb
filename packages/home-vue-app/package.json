@@ -1,6 +1,6 @@
 {
   "name": "@bernardocorbella/home-vue-app",
-  "version": "0.1.0-next.0",
+  "version": "0.1.0-next.1",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -17,8 +17,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@bernardocorbella/home-tokens": "^0.1.0-next.0",
-    "@bernardocorbella/home-vue-components": "^0.1.0-next.0",
+    "@bernardocorbella/home-tokens": "^0.1.0-next.1",
+    "@bernardocorbella/home-vue-components": "^0.1.0-next.1",
     "core-js": "^3.3.2",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
