@@ -23,7 +23,6 @@ jobs:
           path: node_modules
           key: ${{ runner.OS }}-build-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.OS }}-build-${{ hashFiles('**/yarn.lock') }}
             ${{ runner.OS }}-build
       - name: yarn install, build, and test
         run: |

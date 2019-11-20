@@ -10,7 +10,9 @@
     "ci": "yarn install --silent",
     "postinstall": "lerna run build",
     "test": "echo no tests yet",
-    "version:next": "lerna version --conventional-prerelease --no-push --preid next"
+    "version:next": "lerna version --conventional-prerelease --no-push --preid next",
+    "publish": "lerna publish --from-git",
+    "postpublish": "lerna publish --from-package"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
