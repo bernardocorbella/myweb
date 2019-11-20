@@ -12,8 +12,7 @@
     "test": "echo no tests yet",
     "version:next": "lerna version --conventional-prerelease --no-push --preid next",
     "publish": "yarn run publish:gpr",
-    "publish:gpr": "lerna publish from-git --yes --registry https://npm.pkg.github.com",
-    "postpublish:gpr": "lerna publish from-package --yes --registry https://npm.pkg.github.com"
+    "publish:gpr": "lerna publish from-git --yes --registry https://npm.pkg.github.com"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
