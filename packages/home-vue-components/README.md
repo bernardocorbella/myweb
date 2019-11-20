@@ -1,6 +1,6 @@
-# `vue-components`
+# Home Vue Components
 
-> TODO: description
+Here you will find all the components shared in Home products.
 
 ## Usage
 
