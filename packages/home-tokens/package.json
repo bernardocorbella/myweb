@@ -6,7 +6,7 @@
     "url": "https://corbella.me"
   },
   "version": "0.0.0",
-  "main": "dist/tokens.json",
+  "main": "dist/json/tokens.json",
   "license": "MIT",
   "files": [
     "dist/",
