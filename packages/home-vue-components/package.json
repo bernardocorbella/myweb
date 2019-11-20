@@ -16,7 +16,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bernardocorbella/myweb.git"
+    "url": "git+https://github.com/bernardocorbella/myweb.git",
+    "directory": "packages/home-vue-components"
   },
   "scripts": {
     "build": "rimraf dist && bili",
