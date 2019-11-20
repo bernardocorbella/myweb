@@ -11,8 +11,8 @@
     "postinstall": "lerna run build",
     "test": "echo no tests yet",
     "version:next": "lerna version --conventional-prerelease --no-push --preid next",
-    "publish": "lerna publish --from-git --yes",
-    "postpublish": "lerna publish --from-package --yes"
+    "publish": "lerna publish from-git --yes",
+    "postpublish": "lerna publish from-package --yes"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
