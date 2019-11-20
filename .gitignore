@@ -1,0 +1,11 @@
+# build
+/**/dist
+
+# modules
+node_modules
+
+# Editor stuff
+.idea
+
+# OS stuff
+.DS_store

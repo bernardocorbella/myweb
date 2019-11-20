@@ -1,0 +1,25 @@
+{
+  "name": "root",
+  "private": true,
+  "author": {
+    "name": "Bernardo Corbella",
+    "email": "corbellabernardo@gmail.com",
+    "url": "https://corbella.me"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@commitlint/config-lerna-scopes": "^8.2.0",
+    "husky": "^3.1.0",
+    "lerna": "^3.18.5",
+    "prettier": "^1.19.1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
