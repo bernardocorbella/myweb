@@ -13,15 +13,18 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "files": [
-    "dist/",
-    "src/"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bernardocorbella/myweb.git",
     "directory": "packages/home-vue-components"
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist/",
+    "src/"
+  ],
   "scripts": {
     "build": "rimraf dist && run-p build:esm build:ssr build:browser",
     "build:browser": "bili -c configs/bili.browser.js -d dist --file-name index.js",
@@ -47,9 +50,6 @@
     "vue-loader": "^15.7.2",
     "vue-styleguidist": "^4.0.4",
     "vue-template-compiler": "^2.6.10"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "dependencies": {
     "@bernardocorbella/home-tokens": "^0.1.0-next.0",
