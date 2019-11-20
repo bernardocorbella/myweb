@@ -8,7 +8,8 @@
   },
   "scripts": {
     "ci": "yarn install --silent",
-    "postinstall": "lerna run build"
+    "postinstall": "lerna run build",
+    "test": "echo no tests yet"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",

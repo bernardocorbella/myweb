@@ -1,3 +1,4 @@
 dist
+tests/e2e
 node_modules
 **myweb*
