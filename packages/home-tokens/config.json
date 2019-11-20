@@ -1,0 +1,25 @@
+{
+  "source": ["properties/**/*.json", "properties/**/*.js"],
+  "platforms": {
+    "scss": {
+      "transforms": ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "color/css"],
+      "buildPath": "dist/scss/",
+      "files": [
+        {
+          "destination": "_tokens.scss",
+          "format": "scss/variables"
+        }
+      ]
+    },
+    "json": {
+      "transforms": ["name/cti/camel"],
+      "buildPath": "dist/json/",
+      "files": [
+        {
+          "destination": "tokens.json",
+          "format": "json/nested"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@bernardocorbella/home-tokens",
+  "author": {
+    "name": "Bernardo Corbella",
+    "email": "corbellabernardo@gmail.com",
+    "url": "https://corbella.me"
+  },
+  "version": "0.0.0",
+  "main": "dist/tokens.json",
+  "license": "MIT",
+  "files": [
+    "dist/",
+    "properties/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernardocorbella/myweb.git",
+    "directory": "packages/home-tokens"
+  },
+  "scripts": {
+    "watch": "chokidar properties/**/*.json -c \"yarn build\"",
+    "build": "style-dictionary clean && style-dictionary build"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^2.1.0",
+    "forever": "^1.0.0",
+    "prettier": "^1.19.1",
+    "style-dictionary": "^2.8.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

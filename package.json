@@ -6,6 +6,9 @@
     "email": "corbellabernardo@gmail.com",
     "url": "https://corbella.me"
   },
+  "scripts": {
+    "postinstall": "lerna run --scope @bernardocorbella/home-tokens build"
+  },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
