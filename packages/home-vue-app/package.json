@@ -1,6 +1,6 @@
 {
   "name": "@bernardocorbella/home-vue-app",
-  "version": "0.0.0",
+  "version": "0.1.0-next.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -15,8 +15,8 @@
     "directory": "packages/home-vue-app"
   },
   "dependencies": {
-    "@bernardocorbella/home-tokens": "^0.0.0",
-    "@bernardocorbella/home-vue-components": "^0.0.0",
+    "@bernardocorbella/home-tokens": "^0.1.0-next.0",
+    "@bernardocorbella/home-vue-components": "^0.1.0-next.0",
     "core-js": "^3.3.2",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
