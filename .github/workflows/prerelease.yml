@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-prerelease:
-    runs-on: ubuntu/latest
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v1
@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-          registry-url: https://npm.pkg.github.com/
+          registry-url: 'https://npm.pkg.github.com'
           scope: '@bernardocorbella'
 
       - name: Cache
@@ -31,4 +31,4 @@ jobs:
           yarn ci
           yarn publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
