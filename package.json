@@ -11,7 +11,7 @@
     "ci": "yarn install",
     "postinstall": "lerna run build",
     "test": "echo no tests yet",
-    "version:next": "lerna version --conventional-prerelease=home-tokens,home-vue-components --no-push --preid next",
+    "version:next": "lerna version --conventional-prerelease=\"@bernardocorbella/home-{tokens,vue-components}\" --no-push --preid next",
     "publish:git:gpr": "lerna publish from-git --yes --registry https://npm.pkg.github.com",
     "publish:pkg:gpr": "lerna publish from-package --yes --registry https://npm.pkg.github.com"
   },
