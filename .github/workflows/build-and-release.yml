@@ -1,9 +1,12 @@
-name: Publish Prerelease
+name: Publish Release
 
 on:
   push:
     branches:
       - next
+      - master
+    tags:
+      - '*'
 
 jobs:
   build-prerelease:
@@ -26,9 +29,15 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-build
 
-      - name: Install and publish
-        run: |
-          yarn ci
-          yarn run publish
+      - name: Install
+        run: yarn ci
+
+      - name: Publish gpr from git
+        run: yarn run publish:git:gpr
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish gpr from registry
+        run: yarn publish:pkg:gpr
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

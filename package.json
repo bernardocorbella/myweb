@@ -12,8 +12,8 @@
     "postinstall": "lerna run build",
     "test": "echo no tests yet",
     "version:next": "lerna version --conventional-prerelease --no-push --preid next",
-    "publish": "yarn run publish:gpr --scope=@bernardocorbella/home-{tokens,vue-components}",
-    "publish:gpr": "lerna publish from-git --yes --registry https://npm.pkg.github.com"
+    "publish:git:gpr": "lerna publish from-git --yes --registry https://npm.pkg.github.com --scope \"@bernardocorbella/home-{tokens,vue-components}\"",
+    "publish:pkg:gpr": "lerna publish --from-package --registry https://npm.pkg.github.com -- scope \"@bernardocorbella/home-{tokens,vue-components}\""
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
