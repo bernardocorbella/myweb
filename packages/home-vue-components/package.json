@@ -26,6 +26,7 @@
     "src/"
   ],
   "scripts": {
+    "dev": "yarn styleguide",
     "build": "rimraf dist && run-p build:esm build:ssr build:browser",
     "build:browser": "bili -c configs/bili.browser.js -d dist --file-name index.js",
     "build:esm": "bili -c configs/bili.esm.js -d dist --file-name index.esm.js",
