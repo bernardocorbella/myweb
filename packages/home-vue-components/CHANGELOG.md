@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0-next.2](https://github.com/bernardocorbella/myweb/compare/@bernardocorbella/home-vue-components@0.1.0-next.1...@bernardocorbella/home-vue-components@0.1.0-next.2) (2019-11-23)
+
+**Note:** Version bump only for package @bernardocorbella/home-vue-components
+
+
+
+
+
 # [0.1.0-next.1](https://github.com/bernardocorbella/myweb/compare/@bernardocorbella/home-vue-components@0.1.0-next.0...@bernardocorbella/home-vue-components@0.1.0-next.1) (2019-11-20)
 
 
